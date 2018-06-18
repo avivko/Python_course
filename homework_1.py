@@ -16,6 +16,14 @@
 
 # 8. push this file in your repository
 
+x = 5
+y = x
+x = x + 13
+y = y - 2
+z = []
+z.append(x)
+z.append(y)
+
 if __name__ == '__main__':
     assert type(x) is int, 'x is not an integer anymore'
     assert type(y) is int, 'y is not an integer anymore'
